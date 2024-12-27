@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: retry
+
+retry:
+#  maxAttempts: 5
+#  initialInterval: 100
+#  multiplier: 2
+#  maxInterval: 5000
+#  retryableExceptions:
+#  nonRetryableExceptions:
