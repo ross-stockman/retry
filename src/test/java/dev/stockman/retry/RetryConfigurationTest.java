@@ -11,7 +11,6 @@ import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
 @TestPropertySource(properties = {
-        "spring.main.banner-mode=off",
         "retry.maxAttempts=3",
         "retry.initialInterval=50",
         "retry.multiplier=2",
